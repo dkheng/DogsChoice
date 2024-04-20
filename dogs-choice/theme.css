@@ -154,9 +154,7 @@ h6 {
     transform: translateY(-0.1rem);
 }
 #write>h3.md-focus:before,
-#write>h4.md-focus:before,
-#write>h5.md-focus:before,
-#write>h6.md-focus:before {
+#write>h4.md-focus:before {
     border: 0px;
     position: unset;
     padding: 0px;
@@ -165,55 +163,6 @@ h6 {
     border-radius: 0px;
     float: unset;
 }
-h2.md-end-block.md-heading:after,
-h3.md-end-block.md-heading:after,
-h4.md-end-block.md-heading:after,
-h5.md-end-block.md-heading:after,
-h6.md-end-block.md-heading:after {
-    color: var(--header-tip-color);
-    border: 1px solid var(--header-tip-color);
-    position: absolute;
-    left: -2rem;
-    float: left;
-    font-size: 10px;
-    padding: 0px 2px;
-    font-weight: 300;
-    line-height: normal;
-    opacity: 0;
-}
-h2.md-end-block.md-heading:hover:after,
-h3.md-end-block.md-heading:hover:after,
-h4.md-end-block.md-heading:hover:after,
-h5.md-end-block.md-heading:hover:after,
-h6.md-end-block.md-heading:hover:after {
-    opacity: 1;
-}
-
-h2.md-end-block.md-heading:hover:after {
-    content: "h2";
-    top: 0.5rem;
-}
-
-h3.md-end-block.md-heading:hover:after {
-    content: "h3";
-    top: 0.5rem;
-}
-
-h4.md-end-block.md-heading:hover:after {
-    content: "h4";
-    top: 0.3rem;
-}
-
-h5.md-end-block.md-heading:hover:after {
-    content: "h5";
-    top: 0.18rem;
-}
-
-h6.md-end-block.md-heading:hover:after {
-    content: "h6";
-    top: 0.16rem;
-}
-
 
 img {
     border: 1px solid var(--img-border-color);
