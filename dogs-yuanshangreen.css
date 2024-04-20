@@ -1,0 +1,53 @@
+@import "dogs-choice/theme.css";
+
+:root {
+    /* 系统参数 */
+    --side-bar-bg-color: #1a3b32; /* 侧边栏背景色 */
+    --active-file-bg-color: #2E6048; /* 侧边栏当前打开文件背景色 */
+    --active-file-text-color: var(--control-text-color); /* 侧边栏当前打开文件文本色 */
+    --active-file-border-color: var(--control-text-color); /* 侧边栏当前打开文件左边栏色 */
+    --control-text-color: #DAEDDF; /* 控制文本颜色，系统变量只包括文件名色，下面设置成了所有侧边栏文本色 */
+    --control-text-hover-color: var(--control-text-color); /* 控制文本 hover 色，系统变量只包括文件名色 */
+
+    /* 侧边栏颜色 */
+    --file-hover-bg-color: var(--active-file-bg-color); /* 侧边栏文件 hover 背景色 */
+    --sidebar-border-color: #2E6048;  /* 侧边栏底部按钮 & 侧边栏下方文件操作板边框色 */
+    --sidebar-footer-hover-color: #2E6048; /* 侧边栏底部按钮 & 侧边栏下方文件操作板按钮 hover 颜色 */
+    --sidebar-sort-btn-active-color: #3CC276; /* 侧边栏下方文件操作板里 文件排序规则选项按钮 active & hover 颜色 */
+    --sidebar-resizer-color: #3CC276; /* 侧边栏宽度设置线颜色 */
+    --sidebar-search-bg-color: #364B44; /* 侧边栏搜索框背景色 */
+    --sidebar-search-focus-border-color: #3CC276; /* 侧边栏搜索框聚焦时边框色 */
+    /* 文本颜色 */
+    --main-text-color: #416B5E;   /* 正文文本颜色 */
+    --a-color: #4183C4;           /* 超链接文本颜色 */
+    --text-strong-color: #31423D; /* 加粗文本颜色 */
+    --text-em-color: #4ca497;     /* 强调文本（斜体）颜色 */
+    /* 高亮文本颜色 */
+    --mark-bg-color: #D8F9DB;
+    /* 游标颜色 */
+    --text-cursor-color: var(--main-text-color);
+    /* 标题颜色 */
+    --h2-underline-color: #000;
+    --h1-4-text-color: #206864;
+    --h1-background-color: #DAECE4;
+    --header-lr-border-color: #468870;
+    --header-bottom-border-color: #95B1AE;
+    --h5-text-color: #206864;
+    --h5-text-color: #206864;
+    --header-tip-color: var(--header-bottom-border-color);
+    /* 表格颜色 */
+    --table-thead-bg-color: #ECFAED;
+    --table-border-color: #BFD5CC;
+    /* 引用块颜色 */
+    --blockquote-bg-color: #E2F5ED;
+    --blockquote-decoration-color: #468870;
+    /* 图片颜色 */
+    --img-border-color: #D4E2DC;
+    /* 行内代码颜色 */
+    --code-inline--color: #00769A;
+    --code-inline-bg-color: #efefef;
+    /* 代码块颜色 */
+    --codeblock-bg-color: #ECFAF0;
+    /* 分割线颜色 */
+    --hr-color: #D4E2DC;
+}
