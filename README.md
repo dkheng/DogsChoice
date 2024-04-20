@@ -18,6 +18,6 @@ Dog's Choice 是一款 Typora 主题。Dog's Choice，狗子的选择，狗子�
 
 ### 远山绿配色
 
-![远山绿配色1](.assets/yuanshangreen1.png)
+![远山绿配色1](assets/yuanshangreen1.png)
 
-![远山绿配色2](.assets/yuanshangreen2.png)
+![远山绿配色2](assets/yuanshangreen2.png)
