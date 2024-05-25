@@ -1,0 +1,51 @@
+@import "dogs-choice/theme.css";
+
+:root {
+    /* 系统参数 */
+    --side-bar-bg-color: #F9FAFB; /* 侧边栏背景色 */
+    --active-file-bg-color: #FAE8FF; /* 侧边栏当前打开文件背景色 */
+    --active-file-text-color: var(--control-text-color); /* 侧边栏当前打开文件文本色 */
+    --active-file-border-color: var(--control-text-color); /* 侧边栏当前打开文件左边栏色 */
+    --control-text-color: #5B1C79; /* 控制文本颜色，系统变量只包括文件名色，下面设置成了所有侧边栏文本色 */
+    --control-text-hover-color: var(--control-text-color); /* 控制文本 hover 色，系统变量只包括文件名色 */
+
+    /* 侧边栏颜色 */
+    --sidebar-btn-hover-color: #FAE8FF; /* 侧边栏按钮 hover 色，包括文件 & 底部按钮 & 下方文件操作板按钮 hover 颜色 */
+    --sidebar-border-color: #FAE8FF;  /* 侧边栏底部按钮 & 侧边栏下方文件操作板边框色 */
+    --sidebar-sort-btn-active-color: #5B1C79; /* 侧边栏下方文件操作板里 文件排序规则选项按钮 active & hover 颜色 */
+    --sidebar-resizer-color: #FAE8FF; /* 侧边栏宽度设置线颜色 */
+    --sidebar-search-bg-color: #FAE8FF; /* 侧边栏搜索框背景色 */
+    --sidebar-search-focus-border-color: #5B1C79; /* 侧边栏搜索框聚焦时边框色 */
+    /* 文本颜色 */
+    --main-text-color: #000;   /* 正文文本颜色 */
+    --a-color: #768cce;           /* 超链接文本颜色 */
+    --text-strong-color: #8F00D2; /* 加粗文本颜色 */
+    --text-em-color: #f55066;     /* 强调文本（斜体）颜色 */
+    /* 高亮文本颜色 */
+    --mark-bg-color: #FCFFC8;
+    /* 游标颜色 */
+    --text-cursor-color: var(--main-text-color);
+    /* 标题颜色 */
+    --h1-4-text-color: #000;
+    --h1-background-color: #FFE8E8;
+    --header-lr-border-color: #FDB7B7;
+    --header-bottom-border-color: #FFBFBF;
+    --h5-text-color: #000;
+    --h6-text-color: #000;
+    --header-tip-color: var(--header-bottom-border-color);
+    /* 表格颜色 */
+    --table-thead-bg-color: #FFF3E4;
+    --table-border-color: #F3D6B3;
+    /* 引用块颜色 */
+    --blockquote-bg-color: #E4FFEA;
+    --blockquote-decoration-color: #96F3AC;
+    /* 图片颜色 */
+    --img-border-color: #FFE8F7;
+    /* 行内代码颜色 */
+    --code-inline--color: #224F94;
+    --code-inline-bg-color: #B3BEC946;
+    /* 代码块颜色 */
+    --codeblock-bg-color: #E4F3FF;
+    /* 分割线颜色 */
+    --hr-color: #FFE8F7;
+}
