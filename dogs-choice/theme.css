@@ -259,8 +259,9 @@ table td:last-child {
 /* 代码块 */
 .md-fences,
 tt {
+    font-size: 95%;
     background-color: var(--codeblock-bg-color);
-    padding: 12px 4px 10px 4px;
+    padding: 12px 4px 9px 4px;
 }
 
 /* 行内代码 */
@@ -268,8 +269,9 @@ code {
     color: var(--code-inline--color);
     background-color: var(--code-inline-bg-color);
     padding: 2px;
+    font-size: 95%;
     display: inline;
-    vertical-align: top;
+    vertical-align: center;
 }
 
 .md-task-list-item > input {
@@ -380,7 +382,6 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 /****** Sidebar and Quick open******/
-#typora-sidebar *,
 #typora-quick-open{
   color: var(--control-text-color); /* 控制侧边栏所有前景色均为控制文本色 */
 }
@@ -389,21 +390,27 @@ header, .context-menu, .megamenu-content, footer{
   white-space: nowrap;
 }
 
+/* 大纲文本覆盖色 */
+.outline-item:hover {
+    background-color: var(--active-file-bg-color);
+}
+
 #sidebar-files-menu {
   border: 1px solid var(--sidebar-border-color); /* 侧边栏下方文件操作板边框色 */
 }
 
 #file-library-tree .file-tree-node {
     padding-left: .9em; /* 文件树每级缩进 */
+    color: var(--control-text-color);
 }
 
 .file-tree-node .file-node-content:hover {
-    background-color: var(--file-hover-bg-color); /* 鼠标指向文件时的背景色 */
+    background-color: var(--sidebar-btn-hover-color); /* 鼠标指向文件时的背景色 */
     cursor: pointer;
 }
 
 #typora-sidebar #ty-sidebar-footer .sidebar-footer-item:hover {
-  background: var(--sidebar-footer-hover-color); /* 侧边栏下方操作栏按钮 hover 色 */
+  background: var(--sidebar-btn-hover-color); /* 侧边栏下方操作栏按钮 hover 色 */
 }
 
 #typora-sidebar #ty-sidebar-footer #sidebar-files-menu .show+.menuitem-group-label.show {
@@ -415,7 +422,7 @@ header, .context-menu, .megamenu-content, footer{
 }
 
 #typora-sidebar #ty-sidebar-footer #sidebar-files-menu li>a:hover {
-    background: var(--sidebar-footer-hover-color); /* 侧边栏下方文件操作板 按钮 hover 颜色 */
+    background: var(--sidebar-btn-hover-color); /* 侧边栏下方文件操作板 按钮 hover 颜色 */
 }
 
 /* 侧边栏下方文件操作板里 文件排序规则选项按钮 active */
@@ -428,6 +435,23 @@ header, .context-menu, .megamenu-content, footer{
 #typora-sidebar #ty-sidebar-footer #sidebar-files-menu .ty-side-sort-btn:hover {
     cursor: pointer;
     color: var(--sidebar-sort-btn-active-color); /* 侧边栏下方文件操作板里 文件排序规则选项按钮 hover 颜色 */
+}
+
+/* sidebar tab for windows */
+.info-panel-tab:hover {
+  color: var(--control-text-color);
+}
+
+.sidebar-menu {
+  color: var(--control-text-color);
+}
+
+.sidebar-menu  .dropdown-menu>li>a, .sidebar-menu .dropdown-menu>li>a:focus, .sidebar-menu .dropdown-menu>li>a:hover {
+  color: var(--control-text-color);
+}
+
+.dropdown-menu .selected-folder-menu-item a:after {
+  color: var(--control-text-color);
 }
 
 /* sidebar search*/
