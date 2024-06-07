@@ -271,7 +271,7 @@ code {
     padding: 2px;
     font-size: 95%;
     display: inline;
-    vertical-align: center;
+    vertical-align: middle;
 }
 
 .md-task-list-item > input {
